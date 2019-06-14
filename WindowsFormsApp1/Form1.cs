@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
         {
             using(var db = new CodeFirstModel())
             {
-                var emp = new Employee { EmpName = "Srini 6",Department = "Tech"};
+                var emp = new Employee { EmpName = "Srini 7",Department = "Tech"};
                 db.Employees.Add(emp);
                 db.SaveChanges();
             }
